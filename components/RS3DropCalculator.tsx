@@ -10,6 +10,7 @@ import ItemSelector from './ItemSelector';
 import ModifiersPanel from './ModifiersPanel';
 import ProbabilityGraph from './ProbabilityGraph';
 import MilestoneCards from './MilestoneCards';
+import DropMechanicExplainer from './DropMechanicExplainer';
 
 export default function RS3DropCalculator() {
   // State management
@@ -102,15 +103,8 @@ export default function RS3DropCalculator() {
               />
             </div>
 
-            {/* Placeholder for DropMechanicExplainer (Task 5.0) */}
-            <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
-              <h3 className="text-xl font-semibold mb-4">How This Drop Works</h3>
-              <div className="bg-slate-900 rounded p-4 border border-slate-700">
-                <p className="text-slate-500 text-center">
-                  Drop mechanic explainer component coming soon (Task 5.0)
-                </p>
-              </div>
-            </div>
+            {/* Drop Mechanic Explainer */}
+            <DropMechanicExplainer boss={selectedBoss} item={selectedItem} />
 
             {/* Debug Info */}
             <details className="bg-slate-800 rounded-lg p-6 border border-slate-700">
