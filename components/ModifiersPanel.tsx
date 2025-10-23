@@ -3,7 +3,7 @@
  * Controls for Luck of the Dwarves, Bad Luck Mitigation, and Enrage
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Boss, DropMechanicType } from '@lib/types/boss';
 
 interface ModifiersPanelProps {

@@ -2,7 +2,8 @@
  * Utility functions for accessing and manipulating boss data
  */
 
-import type { Boss, BossDatabase, DropItem, DropMechanicType } from '../types/boss';
+import type { Boss, BossDatabase, DropItem } from '../types/boss';
+import { DropMechanicType } from '../types/boss';
 import bossDatabase from '../data/bosses.json';
 
 /**

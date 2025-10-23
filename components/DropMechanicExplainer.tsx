@@ -3,7 +3,7 @@
  * Explains how drop mechanics work for the selected item
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Boss, DropItem, DropMechanicType } from '@lib/types/boss';
 import { getTableBasedDropBreakdown } from '@lib/calculations/tableBased';
 

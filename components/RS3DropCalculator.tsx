@@ -3,7 +3,7 @@
  * Orchestrates all child components and manages shared state
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Boss, DropItem } from '@lib/types/boss';
 import BossSelector from './BossSelector';
 import ItemSelector from './ItemSelector';
