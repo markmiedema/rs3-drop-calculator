@@ -1,6 +1,7 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.0-placeholder",
   "last_updated": "2025-10-23",
+  "_note": "PLACEHOLDER DATA: Bosses marked with [PLACEHOLDER] use estimated rates for demonstration. Real RS3 Wiki data needed for accuracy.",
   "bosses": [
     {
       "boss_id": "nex",
@@ -109,6 +110,280 @@
           "name": "Araxyte web",
           "drop_rate": 120,
           "wiki_url": "https://runescape.wiki/w/Araxyte_web"
+        }
+      ]
+    },
+    {
+      "boss_id": "vindicta",
+      "boss_name": "Vindicta [PLACEHOLDER]",
+      "combat_level": 7500,
+      "wiki_url": "https://runescape.wiki/w/Vindicta",
+      "drop_mechanics": {
+        "type": "table_based",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "unique_table": {
+        "base_denominator": 256,
+        "numerator": 10,
+        "items": [
+          {
+            "item_id": "dragon_rider_lance",
+            "name": "Dragon Rider lance",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Dragon_Rider_lance"
+          },
+          {
+            "item_id": "crest_of_zaros",
+            "name": "Crest of Zaros",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Crest_of_Zaros"
+          },
+          {
+            "item_id": "dragon_rider_gloves",
+            "name": "Dragon Rider gloves",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Dragon_Rider_gloves"
+          }
+        ]
+      }
+    },
+    {
+      "boss_id": "helwyr",
+      "boss_name": "Helwyr [PLACEHOLDER]",
+      "combat_level": 9216,
+      "wiki_url": "https://runescape.wiki/w/Helwyr",
+      "drop_mechanics": {
+        "type": "table_based",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "unique_table": {
+        "base_denominator": 256,
+        "numerator": 10,
+        "items": [
+          {
+            "item_id": "wand_of_the_cywir_elders",
+            "name": "Wand of the Cywir elders",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Wand_of_the_Cywir_elders"
+          },
+          {
+            "item_id": "orb_of_the_cywir_elders",
+            "name": "Orb of the Cywir elders",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Orb_of_the_Cywir_elders"
+          },
+          {
+            "item_id": "crest_of_seren",
+            "name": "Crest of Seren",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Crest_of_Seren"
+          }
+        ]
+      }
+    },
+    {
+      "boss_id": "twin_furies",
+      "boss_name": "Twin Furies [PLACEHOLDER]",
+      "combat_level": 7800,
+      "wiki_url": "https://runescape.wiki/w/Twin_Furies",
+      "drop_mechanics": {
+        "type": "table_based",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "unique_table": {
+        "base_denominator": 256,
+        "numerator": 10,
+        "items": [
+          {
+            "item_id": "avaryss_blade",
+            "name": "Blade of Avaryss",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Blade_of_Avaryss"
+          },
+          {
+            "item_id": "nymora_blade",
+            "name": "Blade of Nymora",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Blade_of_Nymora"
+          },
+          {
+            "item_id": "crest_of_zamorak",
+            "name": "Crest of Zamorak",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Crest_of_Zamorak"
+          }
+        ]
+      }
+    },
+    {
+      "boss_id": "gregorovic",
+      "boss_name": "Gregorovic [PLACEHOLDER]",
+      "combat_level": 8192,
+      "wiki_url": "https://runescape.wiki/w/Gregorovic",
+      "drop_mechanics": {
+        "type": "table_based",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "unique_table": {
+        "base_denominator": 256,
+        "numerator": 10,
+        "items": [
+          {
+            "item_id": "shadow_glaive",
+            "name": "Shadow glaive",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Shadow_glaive"
+          },
+          {
+            "item_id": "off_hand_shadow_glaive",
+            "name": "Off-hand shadow glaive",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Off-hand_shadow_glaive"
+          },
+          {
+            "item_id": "crest_of_sliske",
+            "name": "Crest of Sliske",
+            "table_weight": 1,
+            "total_weight": 3,
+            "final_rate": 512,
+            "wiki_url": "https://runescape.wiki/w/Crest_of_Sliske"
+          }
+        ]
+      }
+    },
+    {
+      "boss_id": "raksha",
+      "boss_name": "Raksha [PLACEHOLDER]",
+      "combat_level": 9000,
+      "wiki_url": "https://runescape.wiki/w/Raksha",
+      "drop_mechanics": {
+        "type": "direct",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "direct_drops": [
+          {
+          "item_id": "greater_ricochet_codex",
+          "name": "Greater ricochet ability codex",
+          "drop_rate": 50,
+          "wiki_url": "https://runescape.wiki/w/Greater_ricochet_ability_codex"
+        },
+        {
+          "item_id": "fleeting_boots",
+          "name": "Fleeting boots",
+          "drop_rate": 100,
+          "wiki_url": "https://runescape.wiki/w/Fleeting_boots"
+        },
+        {
+          "item_id": "blast_diffusion_boots",
+          "name": "Blast diffusion boots",
+          "drop_rate": 100,
+          "wiki_url": "https://runescape.wiki/w/Blast_diffusion_boots"
+        },
+        {
+          "item_id": "laceration_boots",
+          "name": "Laceration boots",
+          "drop_rate": 100,
+          "wiki_url": "https://runescape.wiki/w/Laceration_boots"
+        }
+      ]
+    },
+    {
+      "boss_id": "kerapac",
+      "boss_name": "Kerapac (Normal Mode) [PLACEHOLDER]",
+      "combat_level": 8800,
+      "wiki_url": "https://runescape.wiki/w/Kerapac,_the_bound",
+      "drop_mechanics": {
+        "type": "direct",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "direct_drops": [
+        {
+          "item_id": "scripture_of_wen",
+          "name": "Scripture of Wen",
+          "drop_rate": 75,
+          "wiki_url": "https://runescape.wiki/w/Scripture_of_Wen"
+        },
+        {
+          "item_id": "tier_85_essence",
+          "name": "Essence of Finality (tier 85)",
+          "drop_rate": 200,
+          "wiki_url": "https://runescape.wiki/w/Essence_of_Finality"
+        }
+      ]
+    },
+    {
+      "boss_id": "telos",
+      "boss_name": "Telos [PLACEHOLDER - Enrage]",
+      "combat_level": 9001,
+      "wiki_url": "https://runescape.wiki/w/Telos,_the_Warden",
+      "drop_mechanics": {
+        "type": "enrage_scaling",
+        "bad_luck_mitigation": false,
+        "luck_applicable": true,
+        "enrage_config": {
+          "min_enrage": 0,
+          "max_enrage": 4000,
+          "formula_type": "telos"
+        }
+      },
+      "direct_drops": [
+        {
+          "item_id": "dormant_staff_of_sliske",
+          "name": "Dormant Staff of Sliske",
+          "drop_rate": 1000,
+          "wiki_url": "https://runescape.wiki/w/Dormant_Staff_of_Sliske"
+        },
+        {
+          "item_id": "dormant_zaros_godsword",
+          "name": "Dormant Zaros Godsword",
+          "drop_rate": 1000,
+          "wiki_url": "https://runescape.wiki/w/Dormant_Zaros_Godsword"
+        },
+        {
+          "item_id": "orb_of_the_cywir_elders_telos",
+          "name": "Orb of pure/volcanic/corrupted anima",
+          "drop_rate": 500,
+          "wiki_url": "https://runescape.wiki/w/Orb_of_pure_anima"
         }
       ]
     }
