@@ -8,6 +8,8 @@ import { Boss, DropItem } from '@lib/types/boss';
 import BossSelector from './BossSelector';
 import ItemSelector from './ItemSelector';
 import ModifiersPanel from './ModifiersPanel';
+import ProbabilityGraph from './ProbabilityGraph';
+import MilestoneCards from './MilestoneCards';
 
 export default function RS3DropCalculator() {
   // State management
@@ -77,28 +79,27 @@ export default function RS3DropCalculator() {
         {/* Results Section - Placeholder for future components */}
         {selectedBoss && selectedItem && (
           <div className="space-y-6">
-            {/* Placeholder for ProbabilityGraph (Task 4.0) */}
+            {/* Probability Graph */}
             <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
               <h3 className="text-xl font-semibold mb-4">Probability Graph</h3>
-              <div className="flex items-center justify-center h-64 bg-slate-900 rounded border border-slate-700">
-                <p className="text-slate-500">Graph component coming soon (Task 4.0)</p>
-              </div>
+              <ProbabilityGraph
+                boss={selectedBoss}
+                item={selectedItem}
+                luckEnabled={luckEnabled}
+                badLuckMitigationEnabled={badLuckMitigationEnabled}
+                enrage={enrage}
+              />
             </div>
 
-            {/* Placeholder for MilestoneCards (Task 4.0) */}
+            {/* Milestone Cards */}
             <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
               <h3 className="text-xl font-semibold mb-4">Milestone Probabilities</h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="bg-slate-900 rounded p-4 border border-slate-700">
-                  <p className="text-slate-500 text-center">50% milestone card</p>
-                </div>
-                <div className="bg-slate-900 rounded p-4 border border-slate-700">
-                  <p className="text-slate-500 text-center">90% milestone card</p>
-                </div>
-                <div className="bg-slate-900 rounded p-4 border border-slate-700">
-                  <p className="text-slate-500 text-center">99% milestone card</p>
-                </div>
-              </div>
+              <MilestoneCards
+                boss={selectedBoss}
+                item={selectedItem}
+                luckEnabled={luckEnabled}
+                badLuckMitigationEnabled={badLuckMitigationEnabled}
+              />
             </div>
 
             {/* Placeholder for DropMechanicExplainer (Task 5.0) */}
