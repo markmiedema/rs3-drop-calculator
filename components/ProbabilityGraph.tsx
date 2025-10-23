@@ -3,7 +3,7 @@
  * Displays cumulative probability curves using Recharts
  */
 
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import {
   LineChart,
   Line,

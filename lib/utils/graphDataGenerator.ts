@@ -10,7 +10,7 @@ import {
 } from '../calculations/luck';
 import { calculateCumulativeProbabilityWithBLM } from '../calculations/badLuckMitigation';
 import { calculateEnrageScaledDropRate } from '../calculations/enrageScaling';
-import type { DropMechanicType, Boss, DropItem } from '../types/boss';
+import type { Boss, DropItem } from '../types/boss';
 
 export interface GraphDataPoint {
   attempts: number;

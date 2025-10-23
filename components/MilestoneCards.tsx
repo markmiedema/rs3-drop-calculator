@@ -3,7 +3,7 @@
  * Displays 50%, 90%, 99% probability milestone cards
  */
 
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import type { Boss, DropItem } from '@lib/types/boss';
 import { findMilestoneAttempts } from '@lib/calculations/dropRate';
 import {

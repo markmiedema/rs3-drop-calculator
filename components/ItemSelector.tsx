@@ -3,7 +3,6 @@
  * Displays and allows selection of drop items for a chosen boss
  */
 
-import React from 'react';
 import { Boss, DropItem } from '@lib/types/boss';
 import { getItemsForBoss } from '@lib/utils/bossData';
 
