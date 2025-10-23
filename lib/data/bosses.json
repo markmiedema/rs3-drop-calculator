@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-23",
+  "bosses": [
+    {
+      "boss_id": "nex",
+      "boss_name": "Nex",
+      "combat_level": 1001,
+      "wiki_url": "https://runescape.wiki/w/Nex",
+      "drop_mechanics": {
+        "type": "table_based",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "unique_table": {
+        "base_denominator": 128,
+        "numerator": 6,
+        "items": [
+          {
+            "item_id": "torva_full_helm",
+            "name": "Torva full helm",
+            "table_weight": 2,
+            "total_weight": 12,
+            "final_rate": 506,
+            "wiki_url": "https://runescape.wiki/w/Torva_full_helm"
+          },
+          {
+            "item_id": "torva_platebody",
+            "name": "Torva platebody",
+            "table_weight": 2,
+            "total_weight": 12,
+            "final_rate": 506,
+            "wiki_url": "https://runescape.wiki/w/Torva_platebody"
+          },
+          {
+            "item_id": "torva_platelegs",
+            "name": "Torva platelegs",
+            "table_weight": 2,
+            "total_weight": 12,
+            "final_rate": 506,
+            "wiki_url": "https://runescape.wiki/w/Torva_platelegs"
+          },
+          {
+            "item_id": "zaryte_bow",
+            "name": "Zaryte bow",
+            "table_weight": 5,
+            "total_weight": 12,
+            "final_rate": 253,
+            "wiki_url": "https://runescape.wiki/w/Zaryte_bow"
+          },
+          {
+            "item_id": "torva_gloves",
+            "name": "Torva gloves",
+            "table_weight": 1,
+            "total_weight": 12,
+            "final_rate": 1012,
+            "wiki_url": "https://runescape.wiki/w/Torva_gloves"
+          }
+        ]
+      }
+    },
+    {
+      "boss_id": "araxxor",
+      "boss_name": "Araxxor",
+      "combat_level": 3000,
+      "wiki_url": "https://runescape.wiki/w/Araxxor",
+      "drop_mechanics": {
+        "type": "direct",
+        "bad_luck_mitigation": true,
+        "mitigation_start": 10,
+        "mitigation_cap": 20,
+        "luck_applicable": true
+      },
+      "direct_drops": [
+        {
+          "item_id": "araxyte_spider_leg_top",
+          "name": "Araxyte spider leg (top)",
+          "drop_rate": 40,
+          "wiki_url": "https://runescape.wiki/w/Araxyte_spider_leg_(top)"
+        },
+        {
+          "item_id": "araxyte_spider_leg_middle",
+          "name": "Araxyte spider leg (middle)",
+          "drop_rate": 40,
+          "wiki_url": "https://runescape.wiki/w/Araxyte_spider_leg_(middle)"
+        },
+        {
+          "item_id": "araxyte_spider_leg_bottom",
+          "name": "Araxyte spider leg (bottom)",
+          "drop_rate": 40,
+          "wiki_url": "https://runescape.wiki/w/Araxyte_spider_leg_(bottom)"
+        },
+        {
+          "item_id": "araxyte_fang",
+          "name": "Araxyte fang",
+          "drop_rate": 120,
+          "wiki_url": "https://runescape.wiki/w/Araxyte_fang"
+        },
+        {
+          "item_id": "araxyte_eye",
+          "name": "Araxyte eye",
+          "drop_rate": 120,
+          "wiki_url": "https://runescape.wiki/w/Araxyte_eye"
+        },
+        {
+          "item_id": "araxyte_web",
+          "name": "Araxyte web",
+          "drop_rate": 120,
+          "wiki_url": "https://runescape.wiki/w/Araxyte_web"
+        }
+      ]
+    }
+  ]
+}
